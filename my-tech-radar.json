@@ -21,7 +21,7 @@
     "description": "Data and machine learning"
   },
   {
-    "name": "Python",
+    "name": "RabbitMQ",
     "ring": "hold",
     "quadrant": "platforms",
     "isNew": "FALSE",
