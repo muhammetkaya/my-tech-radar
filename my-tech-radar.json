@@ -1,513 +1,219 @@
 [
   {
-    "name": "Detox",
-    "ring": "Adopt",
-    "quadrant": "languages-and-frameworks",
+    "name": "Microsoft C#",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "App E2E tests on iOS simulator. Simulator is a tool provided by Apple to mimic various devices on a mac so that we can test how the feature would look and feel. With simulators you can select the iPhone models(7,8, 11, 12 max pro) and the O/S version they are running(iOS versions 12,13,14)"
+    "description": "Backend services, APIs and server-side website code."
   },
   {
-    "name": "Django",
-    "ring": "Adopt",
-    "quadrant": "languages-and-frameworks",
+    "name": "JavaScript",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Python framework used in the biggest UK application including an admin interface"
-  },
-  {
-    "name": "FastAPI",
-    "ring": "Adopt",
-    "quadrant": "languages-and-frameworks",
-    "isNew": "FALSE",
-    "description": "Default web framework used on Python based microservices"
-  },
-  {
-    "name": "Golang",
-    "ring": "Adopt",
-    "quadrant": "languages-and-frameworks",
-    "isNew": "TRUE",
-    "description": "Used for UK infrastructure automation for speed. I have few services implemented with Golang for performance gain or simplicity. Currently we do not have Golang skillset inside the company as well as we don't see future valid use-cases for Golang. Therefore currently Golang is seeing as on-hold technology which shouldn't be picked up for new services."
-  },
-  {
-    "name": "Java",
-    "ring": "Hold",
-    "quadrant": "languages-and-frameworks",
-    "isNew": "FALSE",
-    "description": "Currently we start all new developments with Kotlin to benefit from current language advantages over Java. However we acknowledge that with current pace Java can catchup in the future with Kotlin capabilities"
-  },
-  {
-    "name": "Kotlin",
-    "ring": "Adopt",
-    "quadrant": "languages-and-frameworks",
-    "isNew": "FALSE",
-    "description": "The language used for backend development"
-  },
-  {
-    "name": "Next.js",
-    "ring": "Adopt",
-    "quadrant": "languages-and-frameworks",
-    "isNew": "FALSE",
-    "description": "React framework adopted by all web applications except DE"
+    "description": "Frontend websites"
   },
   {
     "name": "Python",
-    "ring": "Adopt",
-    "quadrant": "languages-and-frameworks",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "The language used for UK backend code"
+    "description": "Data and machine learning"
   },
   {
-    "name": "React",
-    "ring": "Adopt",
-    "quadrant": "languages-and-frameworks",
+    "name": "Python",
+    "ring": "hold",
+    "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Our key technology for web development"
+    "description": "Message broker. Version: 3.10.8 (PaaS)"
   },
   {
-    "name": "React Native",
-    "ring": "Adopt",
-    "quadrant": "languages-and-frameworks",
+    "name": "Microsoft SQL Server",
+    "ring": "adopt",
+    "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Our choice for App development"
+    "description": "Relational database. Version: 14.0.3445.2 (SQL 2017) and Azure SQL (PaaS)"
   },
   {
-    "name": "Redux",
-    "ring": "Adopt",
-    "quadrant": "languages-and-frameworks",
+    "name": "Azure CosmosDB",
+    "ring": "assess",
+    "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Library for state persistence in web"
+    "description": "Document datastore (PaaS)"
   },
   {
-    "name": "Spring Framework",
-    "ring": "Adopt",
-    "quadrant": "languages-and-frameworks",
+    "name": "Azure Table Storage",
+    "ring": "hold",
+    "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Our backend microservices are using Spring Boot and Spring ecosystem by default"
+    "description": "Key value datastore (PaaS)"
   },
   {
-    "name": "Typescript",
-    "ring": "Adopt",
-    "quadrant": "languages-and-frameworks",
+    "name": "Auth0",
+    "ring": "adopt",
+    "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "Our choice for web as well as for App development"
+    "description": "Authentication service (Administration user identity) (PaaS)"
   },
   {
-    "name": "Webpack 5 Module Federation",
-    "ring": "Assess",
-    "quadrant": "languages-and-frameworks",
-    "isNew": "TRUE",
-    "description": "Evaluated as a solution to split DE webapp into independent modules"
-  },
-  {
-    "name": "Astronomer",
-    "ring": "Adopt",
-    "quadrant": "Platforms",
+    "name": "Microsoft .NET Framework",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "The cloud service used for hosting and managing our Airflow instance. Circle CI/CD has been integrated to ensure a quality deployments of Airflow"
+    "description": "Server-side and desktop framework. Version: 4.7.2"
   },
   {
-    "name": "AWS Aurora",
-    "ring": "Assess",
-    "quadrant": "Platforms",
-    "isNew": "TRUE",
-    "description": "Evaluated as an alternative to RDS for multi-region internationalised setup"
-  },
-  {
-    "name": "AWS ELB",
-    "ring": "Adopt",
-    "quadrant": "Platforms",
+    "name": "Microsoft .NET/.NET Core",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "LB for external traffic"
+    "description": "Server-side and desktop framework. Version: 6.0"
   },
   {
-    "name": "AWS Kinesis",
-    "ring": "Adopt",
-    "quadrant": "Platforms",
+    "name": "NancyFx",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Our solution for data streaming needs. Used for both - interservice communication and data transfer to the data warehouse"
+    "description": "Model View Controller (MVC) website framework"
   },
   {
-    "name": "AWS MKS (Kafka)",
-    "ring": "Assess",
-    "quadrant": "Platforms",
+    "name": "AngularJS",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Kafka usage currently being spiked for streaming by UK team"
+    "description": "JavaScript Model View, View Model (MVVM) framework. Version: 1.6.8"
   },
   {
-    "name": "AWS Postgres (RDS)",
-    "ring": "Adopt",
-    "quadrant": "Platforms",
+    "name": "Bootstrap",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Postgres currently is our de facto standard for all application persistence needs. There might be benefits of NoSQL in some use-cases in particular with schema flexibility however we favour maintainability simplicity while sticking to Postgres"
+    "description": "Web UI framework. Version: 3.4.1"
   },
   {
-    "name": "AWS S3",
-    "ring": "Adopt",
-    "quadrant": "Platforms",
+    "name": "jQuery",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "S3 is our storage for all the images and files, except editorial content that lives in CMS"
+    "description": "JavaScript utility library. Version: 3.5.1"
   },
   {
-    "name": "AWS SNS",
-    "ring": "Adopt",
-    "quadrant": "Platforms",
+    "name": "Angular",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "AWS Notification service, used in combination with SQS for message streaming"
+    "description": "JavaScript Model View, View Model (MVVM) framework. Version: 12.0.1"
   },
   {
-    "name": "AWS SQS",
-    "ring": "Adopt",
-    "quadrant": "Platforms",
+    "name": "Vue",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Queueing in AWS"
+    "description": "JavaScript Model View, View Model (MVVM) framework. Version: 2.6.14 and 3.2.37"
   },
   {
-    "name": "Contentful CMS",
-    "ring": "Adopt",
-    "quadrant": "Platforms",
+    "name": "PrimeVue",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "CMS solution used in various areas of My all applications mainly in martech and promotion for storing static content for our product such as make/model pages, promotions content etc."
+    "description": "Web UI framework. Version: 2.9.1 and 3.12.2"
   },
   {
-    "name": "Elasticsearch",
-    "ring": "Adopt",
-    "quadrant": "Platforms",
+    "name": "Identity Server",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Used for listing search, could be used for other search needs"
+    "description": "Authentication framework (Patient identity). Version: 4.1.2"
   },
   {
-    "name": "Snowflake",
-    "ring": "Adopt",
-    "quadrant": "Platforms",
+    "name": "Castle Windsor",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Global data warehouse solution. It allows us to easily scale the platform horizontally (e.g. more nodes) or vertically (e.g. more compute)."
+    "description": "Dependency Injection framework. Version: 4.4.1"
   },
   {
-    "name": "App Release Managers",
-    "ring": "Adopt",
-    "quadrant": "Techniques",
+    "name": "EasyNetQ",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Responsible to create Beta close to the end of the sprint by triggering a workflow, After Beta is verified, creates the release build, distributes and manages rollout from Apple and Google console according to Staged Rollout practice. The overhead for the Release Manager work is minimal but it avoid ubiquity on who is handling the topic"
+    "description": "Service bus messaging library for RabbitMQ. Version: 5.6.0"
   },
   {
-    "name": "Apps Staged Rollout",
-    "ring": "Adopt",
-    "quadrant": "Techniques",
+    "name": "Simple.Data",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Rolling out new release by incrementing users distribution from 1% till 100% over the course of 7 days"
+    "description": "Lightweight Object Relational Mapper (ORM). Version: 0.19.0"
   },
   {
-    "name": "Architecture Decision Records",
-    "ring": "Adopt",
-    "quadrant": "Techniques",
+    "name": "Linq2Db",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "The process and documentation format we use to capture important architecture decisions"
+    "description": "Lightweight Object Relational Mapper (ORM). Version: 2.9.8"
   },
   {
-    "name": "Balanced pyramid of tests",
-    "ring": "Adopt",
-    "quadrant": "Techniques",
+    "name": "Entity Framework Core",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "We strongly encourage teams at My all applications to implement a well balanced pyramid of tests, understanding the different layers necessary to automate software testing."
+    "description": "Object Relational Mapper (ORM). Version: 6.0.1"
   },
   {
-    "name": "Code reviews",
-    "ring": "Adopt",
-    "quadrant": "Techniques",
+    "name": "Automatonymous",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "By default all the code and configuration changes go through code review process within the teams"
+    "description": "State machine library. Version: 1.2.9"
   },
   {
-    "name": "Communities of Practice",
-    "ring": "Adopt",
-    "quadrant": "Techniques",
+    "name": "TopShelf",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "As of now we have Backend, Frontend and Mobile community of practice where engineers across multiple teams can exchange knowledge, discuss possible solutions to common problems and align technical decisions"
+    "description": "Windows service hosting library. Version: 4.3.0"
   },
   {
-    "name": "Engineering on-call process",
-    "ring": "Adopt",
-    "quadrant": "Techniques",
+    "name": "Log4Net",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "The on-call duty is a task force of dedicated who are \"on-call\" to fix critical issues for software services as they arise. My all applications adopts this technique in order to assure higher product uptime and 24/7 monitoring of possible issues in our systems"
+    "description": "Logging framework. Version: 2.0.13"
   },
   {
-    "name": "GitHub pull request model",
-    "ring": "Adopt",
-    "quadrant": "Techniques",
+    "name": "Serilog",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "All our teams by default are working with pull-request model. One of our teams is experimenting with trunk based development in combination with pair programming"
+    "description": "Logging framework. Version: 2.12.0"
   },
   {
-    "name": "Incidents post-mortems",
-    "ring": "Adopt",
-    "quadrant": "Techniques",
+    "name": "NUnit",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Documented knowledge about happened incidents and collected learnings how to prevent such incidents from happening again"
+    "description": "Unit Testing framework. Version: 3.13.3"
   },
   {
-    "name": "Proactive monitoring (Synthetic tests)",
-    "ring": "Trial",
-    "quadrant": "Techniques",
-    "isNew": "TRUE",
-    "description": "Synthetic monitoring (also known as active monitoring or proactive monitoring) allow you to observe how your systems and applications are performing using simulated requests and actions from around the globe. Some of our teams in My all applications have been using this technique for monitor application's uptime and basic rendering."
-  },
-  {
-    "name": "Trunk-based development",
-    "ring": "Trial",
-    "quadrant": "Techniques",
+    "name": "SpecFlow",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Trunk-based development (TBD) is a source-control branching model, where developers collaborate on code in a single main branch. TBD is a key enabler of Continuous Integration and by extension Continuous Delivery. Considering our success with Pair Programming in Martech team and other well established engineering practices (well-balanced pyramid of tests and infrastructure for CI/CD), TBD is currently in trial by the team."
+    "description": "Business Driven Development (BDD) testing framework. Version: 3.9.58"
   },
   {
-    "name": "Adjust",
-    "ring": "Adopt",
-    "quadrant": "Tools",
+    "name": "Jasmine",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "App channel attribution collection"
+    "description": "Business Driven Development (BDD) testing framework. Version: 2.9"
   },
   {
-    "name": "Airflow",
-    "ring": "Adopt",
-    "quadrant": "Tools",
+    "name": "Cypress",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
-    "description": "Our orchestration tool for managing DAG-based data pipelines."
-  },
-  {
-    "name": "AWS EKS (k8s)",
-    "ring": "Adopt",
-    "quadrant": "Tools",
-    "isNew": "TRUE",
-    "description": "Our envisioned target setup is to run k8s as managed EKS service"
-  },
-  {
-    "name": "Bitrise",
-    "ring": "Adopt",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Used for mobile react native CI/CD pipeline for App"
-  },
-  {
-    "name": "bugsnag",
-    "ring": "Adopt",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Bugs monitoring and reporting for App"
-  },
-  {
-    "name": "CicleCI",
-    "ring": "Adopt",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "CI/CD for backend and frontend components"
-  },
-  {
-    "name": "ArgoCD",
-    "ring": "Adopt",
-    "quadrant": "Tools",
-    "isNew": "TRUE",
-    "description": "GitOPS CD for backend and frontend components"
-  },
-  {
-    "name": "Datadog",
-    "ring": "Adopt",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Serves for all backend and infrastructure monitoring needs"
-  },
-  {
-    "name": "Delibr",
-    "ring": "Adopt",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Tool for architectural discussions progressing to technical documents in the UK"
-  },
-  {
-    "name": "Docker containers",
-    "ring": "Adopt",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "De facto standard for packaging and shipping out backend microservices"
-  },
-  {
-    "name": "dbt",
-    "ring": "Adopt",
-    "quadrant": "Tools",
-    "isNew": "TRUE",
-    "description": "SQL-based transformation tool"
-  },
-  {
-    "name": "docker-compose",
-    "ring": "Adopt",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Used with Docker for local development and containerisation"
-  },
-  {
-    "name": "firebase",
-    "ring": "Adopt",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Push Notification for App, also helps with Performance monitoring"
-  },
-  {
-    "name": "Flagr",
-    "ring": "Adopt",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Feature flagging tool to segment users into cohorts."
-  },
-  {
-    "name": "keycloak",
-    "ring": "Adopt",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Solution we adopted for login and identity needs"
-  },
-  {
-    "name": "Kibana (ELK)",
-    "ring": "Adopt",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Used for all the logs from backend components"
-  },
-  {
-    "name": "kops",
-    "ring": "Hold",
-    "quadrant": "Tools",
-    "isNew": "TRUE",
-    "description": "Currently in some of our markets clusters we host k8s on top of AWS resources with help of kops provisioning"
-  },
-  {
-    "name": "Lighthouse",
-    "ring": "Adopt",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Used as an alternative web performance monitoring and for analysing performance impact of the changes under development before being released to production"
-  },
-  {
-    "name": "Loki",
-    "ring": "Adopt",
-    "quadrant": "Tools",
-    "isNew": "TRUE",
-    "description": "Grafana based log displays, graphs and monitoring used in the UK"
-  },
-  {
-    "name": "Looker",
-    "ring": "Adopt",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Our main reporting tool which sources data from Snowflake and Postgres RDS and present data into meaningful insights."
-  },
-  {
-    "name": "Matillion",
-    "ring": "Hold",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Our initial orchestration tool for DAG-based. This is mainly a clickops tool which limits our ability to properly review code and can lead to improper code/data pipelines being published to production. We are in the process of migrating this to Airflow."
-  },
-  {
-    "name": "Redash",
-    "ring": "Adopt",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "The visual tool and SQL client we use to work with our data in Postgres and Elastic"
-  },
-  {
-    "name": "Segment",
-    "ring": "Adopt",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Our Customer Data Platform (CDP) used for integration of user tracking and customer systems data (e.g. CRM) and for defining tracking specifications."
-  },
-  {
-    "name": "Sentry",
-    "ring": "Adopt",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Used for receiving and analysing system errors from our frontend and backend components"
-  },
-  {
-    "name": "Sentry performance monitoring",
-    "ring": "Adopt",
-    "quadrant": "Tools",
-    "isNew": "TRUE",
-    "description": "Used to measure and monitor Core Web Vitals (CWV) relevant performance metrics. The metrics reported by Sentry are used also to set performance metrics related goals"
-  },
-  {
-    "name": "Terraform",
-    "ring": "Adopt",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Solution to maintain and deploy infrastructure state and make infrastructure changes"
-  },
-  {
-    "name": "Testfairy",
-    "ring": "Adopt",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Build distribution on devices to test PR and Beta builds for App"
-  },
-  {
-    "name": "vysor",
-    "ring": "Trial",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Mirror actual devices to mac machines to speed up development rather than using simulators/emulators (used for App development)"
-  },
-  {
-    "name": "Yarn Berry",
-    "ring": "Assess",
-    "quadrant": "Tools",
-    "isNew": "TRUE",
-    "description": "Yarn Workspaces are currently evaluated as a monorepo solution for DE webapp"
-  },
-  {
-    "name": "Prometheus",
-    "ring": "Assess",
-    "quadrant": "Tools",
-    "isNew": "TRUE",
-    "description": "Monitoring, Alerting and Metrics gathering for kubernetes resources"
-  },
-  {
-    "name": "Grafana",
-    "ring": "Assess",
-    "quadrant": "Tools",
-    "isNew": "TRUE",
-    "description": "Dashboard and Graphing for Metrics"
-  },
-  {
-    "name": "Atlantis",
-    "ring": "Assess",
-    "quadrant": "Tools",
-    "isNew": "TRUE",
-    "description": "CI Chatops pipeline for terraform"
-  },
-  {
-    "name": "Phrase",
-    "ring": "Adopt",
-    "quadrant": "Tools",
-    "isNew": "FALSE",
-    "description": "Translation handler for all emerging and future markets"
-  },
-  {
-    "name": "Serverless Framework",
-    "ring": "Assess",
-    "quadrant": "languages-and-frameworks",
-    "isNew": "FALSE",
-    "description": "Development solution for apps built on AWS Lambda"
-  },
-  {
-    "name": "AWS Lambda",
-    "ring": "Assess",
-    "quadrant": "Platforms",
-    "isNew": "FALSE",
-    "description": "Auto-scaling high-availability serverless compute infrastructure"
-  },
-  {
-    "name": "AWS API Gateway",
-    "ring": "Assess",
-    "quadrant": "Platforms",
-    "isNew": "FALSE",
-    "description": "Managed API gateway for webapps"
+    "description": "JavaScript testing framework. Version: 10.7.0"
   }
 ]
